@@ -1,0 +1,45 @@
+
+
+:root {
+    --primary-text-color: #434455;
+    --ocean-color: #404bbf;
+    --iris-color: #4d5ae5;
+    --primary-white-color: #e5e5e5;
+
+}
+
+
+.link {
+    text-decoration: none;
+}
+    body {
+        font-family: Roboto, sans-serif;
+        background-color: var(--primary-white-color);
+        color: var(--primary-text-color)
+    }
+    .list {
+        list-style: none;
+    }
+
+    .main-header
+
+
+    .page-nav
+
+
+    .logo
+
+
+    .menu
+
+
+
+    .menu-item
+
+
+    .menu-link
+
+
+    .contact-mail
+
+    .contact-phone
