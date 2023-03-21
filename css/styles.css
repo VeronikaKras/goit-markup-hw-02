@@ -5,7 +5,8 @@
     --ocean-color: #404bbf;
     --iris-color: #4d5ae5;
     --primary-white-color: #e5e5e5;
-
+    --header-words-color: #2E2F42;
+    
 }
 
 
@@ -21,25 +22,114 @@
         list-style: none;
     }
 
-    .main-header
+    .menu-link {
+        font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: var(--header-words-color);
+    }
 
+     .contact-phone {
+        font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: var(--primary-text-color);
+     }   
 
-    .page-nav
+     .contact-mail {
+        font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: var(--primary-text-color);
+            
+     }
 
+     .change-color-btn
+     will write it from figma
 
-    .logo
+     .change-color-btn:hover,
+     .change-color-btn:focus {
+        will write it from figma
+     }
 
+     .modal-btn {
+        font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;            
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.04em;
+            color: #FFFFFF;
+            background-color: #4D5AE5;
+             
+     }
 
-    .menu
+     .effect-sol {
+        font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 1.07;           
+            text-align: center;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
 
+     }
 
+     .small-text {
+        font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;           
+            text-align: center;
+            letter-spacing: 0.02em;
+            color: var(--primary-text-color);
+                
+     }
 
-    .menu-item
+     .higher-text {
+        font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            text-align: center;
+            letter-spacing: 0.02em;
+            color: var(--header-words-color);
+    
+     }
+        
+     .name-section {
+        font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.11;            
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+            color: var(--header-words-color);
+        
+     }
 
-
-    .menu-link
-
-
-    .contact-mail
-
-    .contact-phone
+     .footer {
+        font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color:#F4F4FD;
+     }
