@@ -32,8 +32,11 @@
             color: var(--primary-text-color);
      }   
 
-     .contact:hover,
-         .contact-phone:focus {
+     .contact:hover {
+        color: var(--ocean-color)
+     }
+
+         .contact:focus {
             color: var(--ocean-color);
          }
 
@@ -161,7 +164,7 @@
      .menu-link:hover {
         color: var(--ocean-color);
         }
-        
+
      .menu-link:focus {
         color: var(--ocean-color);
      }
