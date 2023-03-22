@@ -195,3 +195,7 @@
     .section-effect-sol {
         background-color: #2E2F42;
     }
+
+    .to-hide {
+        visibility: hidden;
+    }
