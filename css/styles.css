@@ -31,7 +31,7 @@
             color: var(--header-words-color);
     }
 
-     .contact-phone {
+     .contact {
         
             font-size: 16px;
             line-height: 1.5;
@@ -39,25 +39,14 @@
             color: var(--primary-text-color);
      }   
 
-     .contact-phone:hover,
+     .contact:hover,
          .contact-phone:focus {
             color: var(--ocean-color);
          }
 
-     .contact-mail {
-        
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: var(--primary-text-color);
-            
-     }
-
-     .contact-mail:hover,
-     .contact-mail:focus {
-        color: var(--ocean-color);
-     }
-
+         .team-names {
+            background-color: #FFFFFF
+         }
 
      .logo {
         font-family: 'Raleway', sans-serif;
@@ -96,9 +85,11 @@
      }
 
      
-
+.name-section {
+    background-color: #F4F4FD
+}
      .order-btn {
-        
+        font-family: 'Roboto', sans-serif
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;            
@@ -107,6 +98,7 @@
             letter-spacing: 0.04em;
             color: #FFFFFF;
             background-color: #4D5AE5;
+            cursor: pointer;
              
      }
 
@@ -125,6 +117,8 @@
             color: #FFFFFF;
 
      }
+
+     
 
      .small-text {
         
@@ -172,6 +166,10 @@
         color: var(--ocean-color)
      }
 
+     .footer-back {
+        background-color: #2e2f42;
+     }
+
      .web {
         font-family: 'Raleway';
                         font-weight: 800;
@@ -187,7 +185,7 @@
      }
 
           .studio {
-              color: #2E2F42; 
+              color: #f4f4fd; 
             }
 
             .contacts-font-normal {
