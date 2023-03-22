@@ -89,7 +89,7 @@
     background-color: #F4F4FD
 }
      .order-btn {
-        font-family: 'Roboto', sans-serif
+        font-family: 'Roboto', sans-serif;
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;            
@@ -185,9 +185,17 @@
      }
 
           .studio {
-              color: #f4f4fd; 
+              color: #2e2f42
             }
 
             .contacts-font-normal {
                 font-style: normal;
             }
+
+    .section-team {
+        color: #F4F4FD;
+    }
+
+    .section-effect-sol {
+        background-color: #2E2F42;
+    }
