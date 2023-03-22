@@ -22,9 +22,8 @@
         list-style: none;
     }
 
-    .menu-link {
-        font-family: 'Roboto', sans-serif;
-            font-style: normal;
+    .menu-link {    
+           
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
@@ -33,19 +32,20 @@
     }
 
      .contact-phone {
-        font-family: 'Roboto', sans-serif;
-            font-style: normal;
-            font-weight: 400;
+        
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: var(--primary-text-color);
      }   
 
+     .contact-phone:hover,
+         .contact-phone:focus {
+            color: var(--ocean-color);
+         }
+
      .contact-mail {
-        font-family: 'Roboto', sans-serif;
-            font-style: normal;
-            font-weight: 400;
+        
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
@@ -53,17 +53,45 @@
             
      }
 
-     .change-color-btn
-     will write it from figma
+     .contact-mail:hover,
+     .contact-mail:focus {
+        color: var(--ocean-color);
+     }
+
+     .change-color-btn {
+       
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.04em;
+            color: var(--iris-color);
+            background-color: #F4F4FD;
+     }
+
+     .change-color-btn:hover,
+     .change-color-btn:focus {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: var(--ocean-color);
+     }
 
      .change-color-btn:hover,
      .change-color-btn:focus {
         will write it from figma
      }
 
-     .modal-btn {
-        font-family: 'Roboto', sans-serif;
-            font-style: normal;
+     .order-btn {
+        
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;            
@@ -75,9 +103,13 @@
              
      }
 
+     .order-btn:hover,
+     .order-btn:focus {
+        background-color: var(--ocean-color);
+     }
+
      .effect-sol {
-        font-family: 'Roboto', sans-serif;
-            font-style: normal;
+        
             font-weight: 700;
             font-size: 56px;
             line-height: 1.07;           
@@ -88,9 +120,7 @@
      }
 
      .small-text {
-        font-family: 'Roboto', sans-serif;
-            font-style: normal;
-            font-weight: 400;
+        
             font-size: 16px;
             line-height: 1.5;           
             text-align: center;
@@ -100,8 +130,7 @@
      }
 
      .higher-text {
-        font-family: 'Roboto', sans-serif;
-            font-style: normal;
+        
             font-weight: 500;
             font-size: 20px;
             line-height: 1.2;
@@ -112,8 +141,7 @@
      }
         
      .name-section {
-        font-family: 'Roboto', sans-serif;
-            font-style: normal;
+        
             font-weight: 700;
             font-size: 36px;
             line-height: 1.11;            
@@ -124,12 +152,44 @@
         
      }
 
-     .footer {
-        font-family: 'Roboto', sans-serif;
-            font-style: normal;
-            font-weight: 400;
+     .footer-text {
+        
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
             color:#F4F4FD;
      }
+
+     .menu-link:hover,
+     .menu-link:focus {
+        color: var(--ocean-color)
+     }
+
+     .web {
+        font-family: 'Raleway';
+                        font-weight: 800;
+            font-size: 18px;
+            line-height: 1.17;
+           
+        
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: var(--iris-color);
+     }
+
+          .studio {
+              font-family: 'Raleway';
+    
+              font-weight: 800;
+              font-size: 18px;
+              line-height: 1.17;
+    
+    
+              display: flex;
+              align-items: center;
+              letter-spacing: 0.03em;
+              text-transform: uppercase;
+              color: var(--header-words-color); 
+            }
