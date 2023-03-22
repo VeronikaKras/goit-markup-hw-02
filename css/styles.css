@@ -22,14 +22,7 @@
         list-style: none;
     }
 
-    .menu-link {    
-           
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: var(--header-words-color);
-    }
+    
 
      .contact {
         
@@ -58,28 +51,23 @@
         color: #4d5ae5;
      }
      .change-color-btn {
-       
+       font-family: 'Roboto', sans-serif;
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
-            display: flex;
-            align-items: center;
-            text-align: center;
             letter-spacing: 0.04em;
             color: var(--iris-color);
             background-color: #F4F4FD;
+            cursor: pointer;
      }
 
-     .change-color-btn:hover,
+     .change-color-btn:hover {
+        color: #FFFFFF;
+        background-color: var(--ocean-color);
+     }
      .change-color-btn:focus {
 
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
+    
     color: #FFFFFF;
     background-color: var(--ocean-color);
      }
@@ -161,31 +149,33 @@
             color:#F4F4FD;
      }
 
-     .menu-link:hover,
+
+         .menu-link {
+    
+             font-weight: 500;
+             font-size: 16px;
+             line-height: 1.5;
+             letter-spacing: 0.02em;
+             color: var(--primary-text-color);
+         }
+     .menu-link:hover {
+        color: var(--ocean-color);
+    }
      .menu-link:focus {
-        color: var(--ocean-color)
+        color: var(--ocean-color);
      }
 
      .footer-back {
         background-color: #2e2f42;
      }
 
-     .web {
-        font-family: 'Raleway';
-                        font-weight: 800;
-            font-size: 18px;
-            line-height: 1.17;
-           
-        
-            display: flex;
-            align-items: center;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-            color: var(--iris-color);
-     }
 
-          .studio {
-              color: #2e2f42
+          .studio-footer {
+              color: #f4f4fd;
+            }
+        
+            .studio-header {
+              color: #2E2F42;  
             }
 
             .contacts-font-normal {
@@ -194,6 +184,8 @@
 
     .section-team {
         color: #F4F4FD;
+        background-color: #F4F4FD
+
     }
 
     .section-effect-sol {
